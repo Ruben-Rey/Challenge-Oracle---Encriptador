@@ -31,7 +31,10 @@ html {
 }
 
 body {
-    background: #040704 ;
+    background: #040704;
+    background-image: url(./img/candado-cerrado_verde_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
@@ -55,6 +58,7 @@ header {
     font-size: 6rem;
     margin-left: 1.5rem;
     text-align: center;
+    color: #ffffff;
 }
 .section__h2 {
     color: #ffffff;
