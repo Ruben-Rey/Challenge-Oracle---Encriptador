@@ -19,46 +19,113 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+html {
+    font-size: 62.5%;
+    font-family: 'DM sans';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background:  #040704 ;
+    background: #040704 ;
 }
 
 header {
     color: #ffffff;
+    width: 100%;
+
+
+}
+
+.container__header {
+    height: 15rem;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .header__title {
-    font-size: 24px;
+    font-size: 6rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.section__h2 {
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
 }
 
-#logo {
+
+.logo {
     width: 10%;
+}
+
+#logo__img {
+    width: 100%;
 }
 
 .tex__area {
     background: #ddeae0 ;
+    width: 50rem;
+    font-size: 3rem;
+
 }
 
+.form__card {
+    margin: 1.2rem 0 1rem 0 ;
+}
 
+.out-text {
+    background: #b5dabe ;
+    width: 50rem;
+    height: 20rem;
+    font-size: 3rem;
+}
 
 .encrip__button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 20px;
+    width: 12rem;
+    height: 3rem;
     background: #43eb6a ;
     color: #000;
-    font-size: 15px;
+    font-size: 1.5rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
    cursor: pointer;
     
 }
-.encrip__button:hover {background-color: #3e8e41}
+.encrip__button:hover {
+    background-color: #92e095}
 
 .encrip__button:active {
-  background-color: #3e8e41;
   
+  box-shadow: -2px 2px 22px 8px rgba(75,194,115,1);
   transform: translateY(1px);
+}
+
+.button__right {
+    
+    display: flex; 
+    justify-content: flex-end;   
+
+}
+
+.conten__modul {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;
+    
 }

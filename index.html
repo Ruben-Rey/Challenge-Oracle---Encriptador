@@ -10,44 +10,50 @@
 </head>
 <body>
     <header>
-        <figure class>
-            <img id="logo" src="./img/Logo_Ibiza.png" alt="">
-        </figure>
-        <h1 class="header__title">Encriptador y desecriptador en JavaScript</h1>
+        <div class="container__header">
+            <figure class="logo">
+                <img id="logo__img" src="./img/Logo_Ibiza.png" alt="">
+            </figure>
+            <h1 class="header__title">Encriptador y desecriptador en JavaScript</h1>
+        </div>    
     </header>
 
 
     <article class="conten__modul">
         <section class="card__encrip">
-            <h2 class="encrip__title">Encriptar</h2>
-            <form action="">
+            <h2 class="section__h2">Encriptar</h2>
+            <form class="form__card" action="">
                 <textarea class="tex__area" id="encrip__inp-text" rows="8" cols="25"></textarea> 
             </form>
 
-            <button type="submit" class="encrip__button" onclick="encriptar()">
-                <span class="encrip__button-title">
+            <div class="button__right">
+                <button type="submit" class="encrip__button " onclick="encriptar()">
+                 <span class="encrip__button-title">
                     Encriptar
-                </span>
-            </button>
+                    </span>
+                </button>
+            </div>
 
-            <form action="">
-                <h2>Resultado</h2>
-                <textarea id="encrip__out-text" rows="8" cols="25"></textarea> 
+            <form class="form__card" action="">
+                <h2 class="section__h2">Resultado</h2>
+                <textarea class="out-text" id="encrip__out-text" rows="8" cols="25"></textarea> 
             </form>
 
         </section>
 
         <section class="card__desencrip">
-            <h2 class="desencrip__title">Desencriptar</h2>
-            <form action="">
+            <h2 class="section__h2">Desencriptar</h2>
+            <form class="form__card" action="">
                 <textarea class="tex__area" id="desencrip__inp_text" rows="8" cols="25"></textarea> 
             </form>
 
-            <button class="encrip__button" onclick="desencriptar()">Desencriptar</button>
-
-            <form action="">
-                <h2>Resultado</h2>
-                <textarea id="desencrip__out-text" rows="8" cols="25"></textarea> 
+            <div class="button__right">
+                <button class="encrip__button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            
+            <form class="form__card" action="">
+                <h2 class="section__h2">Resultado</h2>
+                <textarea class="out-text" id="desencrip__out-text" rows="8" cols="25"></textarea> 
             </form>
             
         </section>
