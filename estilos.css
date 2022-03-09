@@ -56,13 +56,14 @@ header {
 
 .header__title {
     font-size: 6rem;
+    font-weight: bold;
     margin-left: 1.5rem;
     text-align: center;
     color: #ffffff;
 }
 .section__h2 {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -78,7 +79,9 @@ header {
 .tex__area {
     background: #ddeae0 ;
     width: 50rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    box-shadow: -2px 2px 22px 8px rgba(75,194,115,1);
+    
 
 }
 
@@ -90,14 +93,15 @@ header {
     background: #b5dabe ;
     width: 50rem;
     height: 20rem;
-    font-size: 3rem;
+    font-size: 2rem;
+    box-shadow: -2px 2px 22px 8px rgba(75,194,115,1);
 }
 
 .encrip__button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: 15rem;
     height: 3rem;
     background: #43eb6a ;
     color: #000;

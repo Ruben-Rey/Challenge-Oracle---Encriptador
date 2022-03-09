@@ -28,17 +28,24 @@
 
             <div class="button__right">
                 <button type="submit" class="encrip__button " onclick="encriptar()">
-                 <span class="encrip__button-title">
-                    Encriptar
+                    <span class="encrip__button-title">
+                        Encriptar
                     </span>
                 </button>
+
             </div>
 
             <form class="form__card" action="">
                 <h2 class="section__h2">Resultado</h2>
                 <textarea class="out-text" id="encrip__out-text" rows="8" cols="25"></textarea> 
             </form>
-
+            <div class="button__right">
+                <button type="submit" class="encrip__button" onclick="copyText__encripResult()">
+                    <span class="encrip__button-title">
+                       Copiar
+                    </span>
+                </button>
+            </div>
         </section>
 
         <section class="card__desencrip">
@@ -49,13 +56,21 @@
 
             <div class="button__right">
                 <button class="encrip__button" onclick="desencriptar()">Desencriptar</button>
+                
+                
             </div>
             
             <form class="form__card" action="">
                 <h2 class="section__h2">Resultado</h2>
                 <textarea class="out-text" id="desencrip__out-text" rows="8" cols="25"></textarea> 
             </form>
-            
+            <div class="button__right">
+                <button type="submit" class="encrip__button" onclick="copyText__desecripResult()">
+                    <span class="encrip__button-title">
+                       Copiar
+                    </span>
+                </button>
+            </div>
         </section>
     </article>
 

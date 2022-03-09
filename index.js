@@ -1,5 +1,5 @@
 
-function encriptar () {
+function encriptar() {
 
   let inp_letter = document.getElementById('encrip__inp-text');
   inp_letter = inp_letter.value;
@@ -53,4 +53,20 @@ function desencriptar() {
   document.getElementById("desencrip__out-text").innerHTML=frase5;
     
   }
+
+function copyText__encripResult() {
+  let content = document.getElementById("encrip__out-text");
+  
+  content.select();
+  document.execCommand('copy');
+  
+}
+
+function copyText__desecripResult() {
+  let content = document.getElementById("desencrip__out-text");
+  
+  content.select();
+  document.execCommand('copy');
+  
+}
 
